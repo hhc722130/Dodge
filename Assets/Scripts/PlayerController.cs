@@ -11,6 +11,7 @@ public class PlayerMovementController : MonoBehaviour
         playerRigidbody = GetComponent<Rigidbody>();
     }
     void Update()
+    
     {
         float xInput = Input.GetAxis("Horizontal");
         Debug.Log("xInput: " + xInput);
