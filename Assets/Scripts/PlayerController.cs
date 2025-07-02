@@ -8,6 +8,7 @@ public class PlayerMovementController : MonoBehaviour
 
     void Start()
     {
+        playerRigidbody = GetComponent<Rigidbody>();
     }
     void Update()
     {
@@ -22,7 +23,7 @@ public class PlayerMovementController : MonoBehaviour
         Vector3 newVelocity = new Vector3(xspeed, 0f, zspeed);
         playerRigidbody.linearVelocity = newVelocity;
 
-        if (Input.GetKey(KeyCode.UpArrow) == true)
+        /*if (Input.GetKey(KeyCode.UpArrow) == true)
         {
             playerRigidbody.AddForce(0f, 0f, speed);
         }
@@ -40,6 +41,6 @@ public class PlayerMovementController : MonoBehaviour
         if (Input.GetKey(KeyCode.RightArrow) == true)
         {
             playerRigidbody.AddForce(-speed, 0f, 0f);
-        }
+        }*/
     }
 }
