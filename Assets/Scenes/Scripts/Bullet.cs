@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Bullet : MonoBehaviour {
@@ -29,6 +31,12 @@ public class Bullet : MonoBehaviour {
                 // 상대방 PlayerController 컴포넌트의 Die() 메서드 실행
                 playerController.Die();
             }
+        }else if (other.tag == "Wall")
+        {
+            // 충돌한 상대방 게임 오브젝트가 Wall 태그를 가진 경우
+            // 자신의 게임 오브젝트 파괴
+            Destroy(gameObject);
         }
+        
     }
 }
