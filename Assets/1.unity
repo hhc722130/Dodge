@@ -1027,8 +1027,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 52805a9e373de6f449852831d75dfa5e, type: 3}
+  m_Resource: {fileID: 8300000, guid: 52805a9e373de6f449852831d75dfa5e, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1521,8 +1521,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 52805a9e373de6f449852831d75dfa5e, type: 3}
+  m_Resource: {fileID: 8300000, guid: 52805a9e373de6f449852831d75dfa5e, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1854,8 +1854,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 52805a9e373de6f449852831d75dfa5e, type: 3}
+  m_Resource: {fileID: 8300000, guid: 52805a9e373de6f449852831d75dfa5e, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -2424,7 +2424,6 @@ GameObject:
   - component: {fileID: 2059858594}
   - component: {fileID: 2059858593}
   - component: {fileID: 2059858597}
-  - component: {fileID: 2059858598}
   - component: {fileID: 2059858599}
   m_Layer: 0
   m_Name: BulletSpawner
@@ -2540,14 +2539,6 @@ MonoBehaviour:
   spawnRateMin: 0.5
   spawnRateMax: 3
   spawnClip: {fileID: 0}
---- !u!81 &2059858598
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2059858592}
-  m_Enabled: 1
 --- !u!82 &2059858599
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2558,8 +2549,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 52805a9e373de6f449852831d75dfa5e, type: 3}
+  m_Resource: {fileID: 8300000, guid: 52805a9e373de6f449852831d75dfa5e, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
